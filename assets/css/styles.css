@@ -1,0 +1,113 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    border:0;
+    padding:0;
+    margin:0;
+}
+
+.displayDiv {
+    align-items:center;
+    justify-content: center;
+    width:100%;
+    height:100vh;
+}
+
+.even {
+    display:flex;
+    background-color: black;
+    color:white;
+    display: block;
+    text-align: center;
+}
+
+.odd {
+    display:flex;
+    background-size:cover;
+    background-attachment: fixed;
+    color:white;
+}
+
+#one {
+    background-image: url(images/ownerofstudio.jpg);   
+    font-family: 'piedra', sans-serif;
+}
+
+#three {
+    background-image:url(images/liveroom.jpg);
+}
+
+#four p {
+    font-size:35px;
+    text-align: center;
+    margin:0 auto;
+}
+
+#five {
+    background-image: url(images/studioroom.jpg);
+}
+
+.titles {
+    font-size:150px;
+}
+
+.smoltitles {
+    font-size:100px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.box {
+    margin:0;
+    padding:0;
+    scroll-behavior: smooth;
+}
+
+p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size:21px;
+}
+
+.smolwords {
+    font-size:12px;
+}
+
+.container {
+    display:block;
+}
+
+input {
+    padding:10px;
+    border-radius: 10px;
+    width:30%;
+    background-color:rgb(41, 41, 41);
+    color:white;
+    outline:none;
+}
+
+textarea {
+    width:30%;
+    padding:10px;
+    border:none;
+    background-color:rgb(41, 41, 41);
+    color:white;
+    border-radius:10px;
+    outline:none;
+}
+
+button {
+    background-color: rgb(41, 41, 41);
+    outline:none !important;
+    width:10%;
+    color:white;
+    box-shadow:none;
+}
+
+a {
+    font-family: 'Krona One', sans-serif;
+}
+
+h1 {
+    text-shadow: 10px 10px 15px black;
+}
